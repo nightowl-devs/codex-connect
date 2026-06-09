@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.ZaliczToPL:codex-connect:v1.0.1")
+    implementation("com.github.ZaliczToPL:codex-connect:v1.0.2")
 }
 ```
 
