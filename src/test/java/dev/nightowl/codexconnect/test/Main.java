@@ -1,4 +1,4 @@
-package dev.nightowl.codexconnect;
+package dev.nightowl.codexconnect.test;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.sun.net.httpserver.HttpServer;
@@ -11,7 +11,6 @@ import dev.nightowl.codexconnect.model.auth.TokenResponse;
 import dev.nightowl.codexconnect.model.request.ChatRequest;
 import dev.nightowl.codexconnect.model.request.Message;
 import dev.nightowl.codexconnect.model.request.ReasoningConfig;
-import dev.nightowl.codexconnect.model.response.ChatResponse;
 import dev.nightowl.codexconnect.model.response.ModelsResponse;
 import okhttp3.OkHttpClient;
 
