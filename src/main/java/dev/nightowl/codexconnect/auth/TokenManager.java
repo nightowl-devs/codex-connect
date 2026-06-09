@@ -36,7 +36,7 @@ public class TokenManager {
         }
 
         if (expiresAt != null && Instant.now().isAfter(expiresAt.minusSeconds(60))) {
-            System.out.println("refreshing");
+
             refreshAccessToken();
         }
 

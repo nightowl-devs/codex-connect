@@ -24,11 +24,7 @@ public class SseParser {
             while ((line = reader.readLine()) != null) {
                 if (line.startsWith("data: ")) {
                     String jsonData = line.substring(6);
-
-                    if ("[DONE]".equals(jsonData)) {
-                        handler.onComplete();
-                        break;
-                    }
+                    
 
                     try {
                         StreamEvent event = objectMapper.readValue(jsonData, StreamEvent.class);

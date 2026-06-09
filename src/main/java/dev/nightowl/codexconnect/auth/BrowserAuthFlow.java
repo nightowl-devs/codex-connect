@@ -49,7 +49,7 @@ public class BrowserAuthFlow {
                 "&id_token_add_organizations=true" +
                 "&codex_cli_simplified_flow=true" +
                 "&state=" + encode(state) +
-                "&originator=opencode";
+                "&originator=opencode"; //iguess as long as it works
 
         return url;
     }
