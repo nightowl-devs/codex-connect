@@ -99,7 +99,7 @@ There are two auth paths in the repo:
 - Gradle
 - Internet access to OpenAI auth and Codex endpoints
 - A valid ChatGPT/OpenAI account
-- If you use the browser auth flow, port `1455` must be available locally AND IT MUST be because its validated server side on openai's side
+- If you use the browser auth flow, port `1455` must be available locally AND IT MUST be that port because its validated server side on openai's side
 
 ## Demo
 
