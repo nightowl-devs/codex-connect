@@ -13,6 +13,7 @@ java {
 
 repositories {
     mavenCentral()
+
 }
 
 dependencies {
@@ -33,7 +34,8 @@ dependencies {
 
     implementation("org.slf4j:slf4j-api:2.0.13")
     implementation("ch.qos.logback:logback-classic:1.5.6")
-    implementation("org.jline:jline:3.30.6")
+        implementation("com.github.nightowl-devs:codex-connect:v1.0.0")
+
 
 }
 
