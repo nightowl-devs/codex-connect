@@ -57,11 +57,12 @@ public class UsageResponse {
         private Boolean unlimited;
         @JsonProperty("overage_limit_reached")
         private Boolean overageLimitReached;
-        private Integer balance;
-        @JsonProperty("approx_local_messages")
-        private Integer approxLocalMessages;
-        @JsonProperty("approx_cloud_messages")
-        private Integer approxCloudMessages;
+        //commented due to me not paying for gpt so i cant tell
+//        private Integer balance;
+//        @JsonProperty("approx_local_messages")
+//        private Integer approxLocalMessages;
+//        @JsonProperty("approx_cloud_messages")
+//        private Integer approxCloudMessages;
     }
 
     @Data
