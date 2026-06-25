@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation("com.github.ZaliczToPL:codex-connect:v1.0.3")
+    implementation("com.github.nightowl-devs:codex-connect:v1.0.3")
 }
 ```
 
