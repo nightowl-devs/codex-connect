@@ -143,7 +143,6 @@ public class CodexClient {
                         response.code()
                 );
             }
-            System.out.println("Error response body: " + response.body().string());
 
             return objectMapper.readValue(response.body().string(), UsageResponse.class);
         } catch (IOException e) {
