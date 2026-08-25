@@ -24,6 +24,9 @@ public class CodexAuthenticator {
     private final BrowserAuthFlow browserAuthFlow;
     @Getter
     private final DeviceAuthFlow deviceAuthFlow;
+    public CodexAuthenticator() {
+        this(new OkHttpClient(), new ObjectMapper());
+    }
 
     public CodexAuthenticator(OkHttpClient httpClient, ObjectMapper objectMapper) {
         this.httpClient = httpClient;
