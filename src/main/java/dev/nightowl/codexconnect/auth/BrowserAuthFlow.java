@@ -27,6 +27,7 @@ public class BrowserAuthFlow {
     public BrowserAuthFlow(OkHttpClient httpClient, ObjectMapper objectMapper) {
         this.httpClient = httpClient;
         this.objectMapper = objectMapper;
+
     }
 
     public AuthorizationRequest startAuthFlow() {

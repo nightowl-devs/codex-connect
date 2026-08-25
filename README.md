@@ -1,6 +1,6 @@
 # codex-connect
 
-Unofficial Java  client for OpenAI's Codex API.
+Unofficial Java client for OpenAI's Codex API.
 
 ## Install
 
@@ -15,16 +15,9 @@ dependencies {
 }
 ```
 
-If you are using another build tool, use the same JitPack coordinates and add `https://jitpack.io` as a repository.
 
 ## Quick Start
 
-The library is centered around two pieces:
-
-- `CodexAuthenticator` for logging in and managing tokens
-- `CodexClient` for usage, models, and chat requests
-
-Example:
 
 ```java
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -76,22 +69,7 @@ public class Main {
 }
 ```
 
-## Auth Flow
 
-There are two auth paths in the repo:
-
-- `BrowserAuthFlow`, which opens the OpenAI auth URL and finishes the PKCE exchange through a local callback on `http://localhost:1455/auth/callback`
-- `DeviceAuthFlow`, which uses OpenAI device auth endpoints and polls until the token is ready
-
-
-## What It Can Do
-
-- Sign in with an ChatGPT account
-- Refresh access tokens automatically
-- Read account info from the JWT
-- Fetch usage data from `/wham/usage`
-- Fetch all Codex models and filter them to the plan the account can use
-- Send chat requests to `/codex/responses` and stream SSE events
 
 ## Requirements
 
