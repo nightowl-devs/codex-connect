@@ -15,6 +15,7 @@ dependencies {
 }
 ```
 
+[Watch Showcase...](https://raw.githubusercontent.com/nightowl-devs/codex-connect/refs/heads/main/showcase.mp4)
 
 ## Quick Start
 
@@ -69,9 +70,6 @@ public class Main {
 }
 ```
 
-## Showcase Video
-
-<video src="https://raw.githubusercontent.com/nightowl-devs/codex-connect/refs/heads/main/showcase.mp4" controls></video>
 
 ## Requirements
 
