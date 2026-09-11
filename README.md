@@ -69,7 +69,9 @@ public class Main {
 }
 ```
 
+## Showcase Video
 
+<video src="./showcase.mp4" controls></video>
 
 ## Requirements
 
