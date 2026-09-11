@@ -71,7 +71,7 @@ public class Main {
 
 ## Showcase Video
 
-<video src="./showcase.mp4" controls></video>
+<video src="https://raw.githubusercontent.com/nightowl-devs/codex-connect/refs/heads/main/showcase.mp4" controls></video>
 
 ## Requirements
 
