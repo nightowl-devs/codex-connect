@@ -31,7 +31,7 @@ public class UsageResponse {
 //    @JsonProperty("additional_rate_limits")
 //    private Object additionalRateLimits;
 
-    private Credits credits;
+    //private Credits credits;
 
     @JsonProperty("spend_control")
     private SpendControl spendControl;

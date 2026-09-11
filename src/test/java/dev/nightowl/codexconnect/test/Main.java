@@ -169,7 +169,7 @@ public class Main {
             //recommended approach for live appliactions would be to use both:
             //controll everything yourself
             client.sendMessageStream(ChatRequest.builder()
-                            .model("gpt-5.4-mini")
+                            .model("gpt-5.5")
                             .instructions("you are a helpful assistant whose name is botwinka, when thinkng the first line fo your thinking is allways **SUBJECT (3-5 words** followed by a  newline")
                             .reasoning(ReasoningConfig.high())
                             .input(List.of((Message.builder().content("what is your inner emotion right now  think deeply").role("user").build()))).build(),
